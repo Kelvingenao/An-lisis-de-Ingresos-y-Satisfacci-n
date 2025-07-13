@@ -1,108 +1,109 @@
-# 📊 Análisis de Ingresos y Satisfacción
+# 📊 Revenue and Satisfaction Analysis
 
-## 📌 Introducción
-Este análisis explora los datos de un supermercado para identificar patrones de ingresos, comportamiento de compra y satisfacción del cliente. Utilizamos herramientas de análisis de datos para responder preguntas clave sobre las ventas, los clientes y sus preferencias.
+## 📌 Introduction
+This analysis explores supermarket data to identify revenue patterns, purchasing behavior, and customer satisfaction. We used data analysis tools to answer key questions about sales, customers, and their preferences.
 
-## 📈 Preguntas y Respuestas
+## 📈 Questions & Answers
 
-### 💰 ¿Cuál es el ingreso total generado?
-El ingreso total generado es **307,587.38**.
-
----
-
-### 🌍 ¿Cómo varía el ingreso entre las diferentes sucursales y ciudades?
-| Sucursal | Ciudad      | Ingresos  |
-|----------|------------|------------|
-| C        | Naypyitaw  | 105,303.53 |
-| A        | Yangon     | 101,143.21 |
-| B        | Mandalay   | 101,140.64 |
-
-🔹 No hay una gran diferencia en los ingresos entre las ciudades y las sucursales.
+### 💰 What is the total revenue generated?
+The total revenue generated is **307,587.38**.
 
 ---
 
-### 💳 ¿Qué método de pago es el más utilizado por los clientes?
-| Método de pago  | Cantidad |
-|----------------|---------|
-| E-wallet      | 345     |
-| Efectivo      | 344     |
-| Tarjeta de crédito | 311 |
+### 🌍 How does revenue vary across different branches and cities?
+| Branch | City       | Revenue     |
+|--------|------------|-------------|
+| C      | Naypyitaw  | 105,303.53  |
+| A      | Yangon     | 101,143.21  |
+| B      | Mandalay   | 101,140.64  |
 
-🔹 **E-wallet** es el método de pago más utilizado.
-
----
-
-### 🛍️ ¿Qué líneas de productos generan más ingresos?
-| Línea de productos       | Ingresos  |
-|--------------------------|------------|
-| Food and Beverages       | 53,471.28  |
-| Sports and Travel        | 52,497.93  |
-| Electronic Accessories   | 51,750.03  |
-| Fashion Accessories      | 51,719.90  |
-| Home and Lifestyle       | 51,297.06  |
-| Health and Beauty        | 46,851.18  |
-
-🔹 Las categorías **Food and Beverages** y **Sports and Travel** generan los mayores ingresos.
+🔹 There is no significant revenue difference between cities or branches.
 
 ---
 
-### 📊 ¿Qué relación hay entre el precio unitario y las calificaciones de los clientes?
-La relación entre el precio unitario y la calificación del cliente es variada:
-- Hay productos con precios altos y calificaciones altas.
-- También hay productos económicos con buenas calificaciones.
-- La mayoría de las calificaciones son **mayores a 6** cuando los precios superan los 30.
-- Existen excepciones donde productos caros tienen calificaciones bajas.
+### 💳 What is the most used payment method?
+| Payment Method    | Count |
+|-------------------|-------|
+| E-wallet          | 345   |
+| Cash              | 344   |
+| Credit Card       | 311   |
 
-🔹 En general, **no hay una correlación fuerte**, pero los productos con precios moderados a altos tienden a tener mejores calificaciones.
-
----
-
-### 👥 ¿Qué tipo de cliente compra más y cuánto gastan en promedio?
-| Tipo de cliente | Cantidad de compras | Ingreso promedio |
-|----------------|--------------------|----------------|
-| Member        | 2,785               | 312.18        |
-| Normal        | 2,725               | 302.97        |
-
-🔹 Los clientes **con membresía** compran más y gastan un poco más en promedio.
+🔹 **E-wallet** is the most commonly used payment method.
 
 ---
 
-### 👨‍👩‍👧‍👦 ¿Existen diferencias en los patrones de compra según el género?
-| Género | Cantidad de compras | Ingresos |
-|--------|--------------------|------------|
-| Femenino | 2,869              | 159,888.50 |
-| Masculino | 2,641              | 147,698.88 |
+### 🛍️ Which product lines generate the most revenue?
+| Product Line             | Revenue     |
+|--------------------------|-------------|
+| Food and Beverages       | 53,471.28   |
+| Sports and Travel        | 52,497.93   |
+| Electronic Accessories   | 51,750.03   |
+| Fashion Accessories      | 51,719.90   |
+| Home and Lifestyle       | 51,297.06   |
+| Health and Beauty        | 46,851.18   |
 
-🔹 Las mujeres **compran y gastan más** que los hombres.
-
-#### 🔍 Distribución por género y tipo de cliente:
-| Género  | Tipo de Cliente | Cantidad | Ingreso Promedio |
-|---------|----------------|----------|------------------|
-| Femenino | Member        | 1,492    | 321.65          |
-| Femenino | Normal        | 1,377    | 316.41          |
-| Masculino | Member       | 1,293    | 301.89          |
-| Masculino | Normal       | 1,348    | 290.52          |
-
-🔹 Los **clientes femeninos con membresía** son los que más gastan.
+🔹 **Food and Beverages** and **Sports and Travel** are the top revenue generators.
 
 ---
 
-### ⭐ ¿Cuál es la calificación promedio de satisfacción del cliente?
-| Tipo de Cliente | Calificación Promedio |
-|----------------|--------------------|
-| Normal        | 7.01               |
-| Member        | 6.94               |
+### 📊 What is the relationship between unit price and customer rating?
+The relationship is varied:
+- Some expensive products have high ratings.
+- Some affordable ones also score well.
+- Most ratings are **above 6** when prices exceed 30.
+- There are exceptions with expensive items receiving low ratings.
 
-🔹 Curiosamente, los clientes **sin membresía** dejan calificaciones ligeramente más altas.
+🔹 Overall, **there is no strong correlation**, but moderately to highly priced products tend to receive better ratings.
 
-## 🏁 Conclusión
-- El supermercado genera **más de 307 mil en ingresos**, con **ventas bien distribuidas** entre las sucursales.
-- **E-wallet** es el método de pago más popular.
-- Las mujeres compran y gastan más que los hombres.
-- **Los clientes con membresía gastan más**, pero califican el servicio un poco más bajo.
-- No hay una **correlación clara** entre el precio unitario y las calificaciones.
+---
 
-## 🚀 Notas Finales
-Este análisis se realizó utilizando **Power BI** y análisis exploratorio de datos. Se podría complementar con visualizaciones más detalladas o técnicas de machine learning para identificar tendencias futuras.
+### 👥 Which customer type buys more and how much do they spend on average?
+| Customer Type | Purchase Count | Avg. Revenue |
+|---------------|----------------|--------------|
+| Member        | 2,785          | 312.18       |
+| Normal        | 2,725          | 302.97       |
 
-📌 *¡Si te gustó este análisis, no olvides darle ⭐ en GitHub!*
+🔹 **Members** purchase more and spend slightly more on average.
+
+---
+
+### 👨‍👩‍👧‍👦 Are there purchasing pattern differences by gender?
+| Gender    | Purchase Count | Revenue      |
+|-----------|----------------|--------------|
+| Female    | 2,869          | 159,888.50   |
+| Male      | 2,641          | 147,698.88   |
+
+🔹 **Women buy and spend more** than men.
+
+#### 🔍 Breakdown by gender and customer type:
+| Gender    | Customer Type | Count | Avg. Revenue |
+|-----------|----------------|-------|--------------|
+| Female    | Member         | 1,492 | 321.65       |
+| Female    | Normal         | 1,377 | 316.41       |
+| Male      | Member         | 1,293 | 301.89       |
+| Male      | Normal         | 1,348 | 290.52       |
+
+🔹 **Female members** are the highest spenders.
+
+---
+
+### ⭐ What is the average customer satisfaction rating?
+| Customer Type | Avg. Rating |
+|---------------|-------------|
+| Normal        | 7.01        |
+| Member        | 6.94        |
+
+🔹 Interestingly, **non-members** leave slightly higher ratings.
+
+## 🏁 Conclusion
+- The supermarket generates **over $307K in revenue**, with **well-distributed sales** across branches.
+- **E-wallet** is the most popular payment method.
+- Women buy and spend more than men.
+- **Members spend more**, but rate the service slightly lower.
+- There is **no clear correlation** between unit price and customer ratings.
+
+## 🚀 Final Notes
+This analysis was conducted using **Power BI** and exploratory data analysis. It could be enhanced with more detailed visualizations or machine learning techniques to identify future trends.
+
+📌 *If you liked this analysis, don’t forget to ⭐ it on GitHub!*
+
